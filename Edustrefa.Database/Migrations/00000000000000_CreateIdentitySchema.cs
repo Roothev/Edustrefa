@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Migrations;
 using System;
 
-namespace Edustrefa.WebApplication.Data.Migrations
+namespace Edustrefa.Database.Migrations
 {
     public partial class CreateIdentitySchema : Migration
     {

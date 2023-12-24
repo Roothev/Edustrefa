@@ -1,4 +1,4 @@
-using Edustrefa.WebApplication.Data;
+using Edustrefa.Database;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
