@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Edustrefa.WebApplication", "Edustrefa.WebApplication\Edustrefa.WebApplication.csproj", "{23021C4D-5EA3-418D-87E2-D2F90D59674D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Edustrefa.WebApplication", "Edustrefa.WebApplication\Edustrefa.WebApplication.csproj", "{23021C4D-5EA3-418D-87E2-D2F90D59674D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Edustrefa.Database", "Edustrefa.Database\Edustrefa.Database.csproj", "{E336AA0F-7E86-4490-BD65-363206907F6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Edustrefa.Database", "Edustrefa.Database\Edustrefa.Database.csproj", "{E336AA0F-7E86-4490-BD65-363206907F6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Edustrefa.Entities", "Edustrefa.Entities\Edustrefa.Entities.csproj", "{D6C74E72-B14C-426C-A5B2-4D5527C72A63}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{E336AA0F-7E86-4490-BD65-363206907F6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E336AA0F-7E86-4490-BD65-363206907F6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E336AA0F-7E86-4490-BD65-363206907F6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6C74E72-B14C-426C-A5B2-4D5527C72A63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6C74E72-B14C-426C-A5B2-4D5527C72A63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6C74E72-B14C-426C-A5B2-4D5527C72A63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6C74E72-B14C-426C-A5B2-4D5527C72A63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

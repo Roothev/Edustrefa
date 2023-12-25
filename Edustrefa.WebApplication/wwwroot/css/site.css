@@ -22,8 +22,75 @@ body {
     background: azure;
 }
 
-
-
 h1, p {
     color: slategrey;
+}
+
+.navbar-inherited-style {
+    background-color: #71816D;
+}
+
+.navbar-inherited-text-style {
+    color: #C9B79C;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.navbar-inherited-text-style:hover {
+    color: #C9B79C;
+}
+
+.body-inherited-style {
+    background-color: #f0f0f0;
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.navbar-inherited-text-logged-user {
+    color: #F1E0C5;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.navbar-inherited-text-logged-user:hover {
+    color: azure;
+}
+
+button {
+    border: none;
+}
+
+.button-inherited-style {
+    background-color: #5064BF;
+    color: white;
+    padding: 6px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.button-inherited-style:hover {
+    background-color: #667bd9;
+    color: white;
+}
+
+.footer-inherited-style {
+    background-color: #71816D;
+}
+
+.footer-inherited-text-style {
+    color: #C9B79C;
 }
