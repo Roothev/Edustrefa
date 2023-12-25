@@ -19,11 +19,17 @@ html {
 
 body {
     margin-bottom: 60px;
-    background: azure;
+    background: #F1E0C5; /* Light Brown */
+}
+
+.body-inherited-style {
+    background-color: #C9B79C; /* Dark Brown */
+    margin: 20px 0;
+    padding: 20px;
 }
 
 h1, p {
-    color: slategrey;
+    color: #342A21;
 }
 
 .navbar-inherited-style {
@@ -44,12 +50,6 @@ h1, p {
     color: #C9B79C;
 }
 
-.body-inherited-style {
-    background-color: #f0f0f0;
-    margin: 20px 0;
-    padding: 20px;
-}
-
 .navbar-inherited-text-logged-user {
     color: #F1E0C5;
     padding-top: 0.3125rem;
@@ -68,8 +68,8 @@ button {
 }
 
 .button-inherited-style {
-    background-color: #5064BF;
-    color: white;
+    background-color: #5064BF; /* Dark Blue */
+    color: azure;
     padding: 6px 12px;
     font-size: 14px;
     cursor: pointer;
@@ -83,14 +83,14 @@ button {
 }
 
 .button-inherited-style:hover {
-    background-color: #667bd9;
+    background-color: #667bd9; /* Light Blue */
     color: white;
 }
 
 .footer-inherited-style {
-    background-color: #71816D;
+    background-color: #71816D; /* Green */
 }
 
 .footer-inherited-text-style {
-    color: #C9B79C;
+    color: #C9B79C; /* Light brown */
 }
