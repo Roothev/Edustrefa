@@ -18,26 +18,40 @@ html {
 }
 
 body {
+    background-color: azure;
     margin-bottom: 60px;
-    background: #F1E0C5; /* Light Brown */
+    padding-top: 60px;
 }
 
-.body-inherited-style {
-    background-color: #C9B79C; /* Dark Brown */
-    margin: 20px 0;
-    padding: 20px;
+.body-inherited-style-home-page {
+    background-color: #4298a1; /* Light blue */
+    padding-top: 30px;
+    border-radius: 8px; /* Rounds the corners of the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for a lifted effect of the image */
 }
 
 h1, p {
-    color: #342A21;
+    color: #4298a1;
+}
+
+.h1-p-inherited-text-style-home-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: azure;
 }
 
 .navbar-inherited-style {
-    background-color: #71816D;
+    background-color: azure;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-bottom: 0.3125rem;
 }
 
 .navbar-inherited-text-style {
-    color: #C9B79C;
+    color: #4298a1;
     padding-top: 0.3125rem;
     padding-bottom: 0.3125rem;
     margin-right: 1rem;
@@ -51,7 +65,7 @@ h1, p {
 }
 
 .navbar-inherited-text-logged-user {
-    color: #F1E0C5;
+    color: #4298a1;
     padding-top: 0.3125rem;
     padding-bottom: 0.3125rem;
     margin-right: 1rem;
@@ -60,7 +74,7 @@ h1, p {
 }
 
 .navbar-inherited-text-logged-user:hover {
-    color: azure;
+    color: #4298a1;
 }
 
 button {
@@ -68,7 +82,7 @@ button {
 }
 
 .button-inherited-style {
-    background-color: #5064BF; /* Dark Blue */
+    background-color: #4298a1; /* Dark Blue */
     color: azure;
     padding: 6px 12px;
     font-size: 14px;
@@ -83,14 +97,44 @@ button {
 }
 
 .button-inherited-style:hover {
-    background-color: #667bd9; /* Light Blue */
+    background-color: #667bd9;
     color: white;
 }
 
 .footer-inherited-style {
-    background-color: #71816D; /* Green */
+    background-color: azure;
 }
 
 .footer-inherited-text-style {
-    color: #C9B79C; /* Light brown */
+    color: #4298a1;
+}
+
+.img-inherited-simple-picture img {
+    max-width: 100%; /* Prevents the image from exceeding the container width */
+    height: auto; /* Automatically adjusts the height to maintain the image's aspect ratio */
+    display: block; /* Removes excess space from the sides of the image */
+    margin: 0 auto; /* Centers the image inside the container if the width is not 100% */
+    border-radius: 8px; /* Rounds the corners of the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for a lifted effect of the image */
+}
+
+.img-inherited-simlpe-picture img:hover {
+    transform: scale(1.1); /* Enlarges the image by 10% on hover */
+    transition: transform 0.3s ease; /* Smooth animation lasting 0.3 seconds */
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    padding: 20px;
+}
+
+.image-container img {
+    width: 25%;
+    height: auto;
+    margin: 0 10px;
+    border-radius: 8px; /* Rounds the corners of the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for a lifted effect of the image */
 }
